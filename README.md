@@ -101,9 +101,9 @@ Then, replace the `pass` statement on line 48 with the following:
 		elif not color_completed:
 			$ColorRect.color = colors[color_index]
 			color_completed = true
-		var pos_x = (sin(Global.sway_index)*(sway_amplitude + color_randomizer.x))
-		var pos_y = (cos(Global.sway_index)*(sway_amplitude + color_randomizer.y))
-		$ColorRect.rect_position = Vector2(color_initial_position.x + pos_x, color_initial_position.y + pos_y)
+		var pos_x = (sin(Global.sway_index)*(sway_amplitude + sway_randomizer.x))
+		var pos_y = (cos(Global.sway_index)*(sway_amplitude + sway_randomizer.y))
+		$ColorRect.rect_position = Vector2(sway_initial_position.x + pos_x, sway_initial_position.y + pos_y)
 
 ```
 
