@@ -2,6 +2,8 @@
 
 Exercise for MSCH-C220
 
+A demonstration of this exercise is available at [https://youtu.be/gfhskDcihjg](https://youtu.be/gfhskDcihjg).
+
 This exercise is the third installment as you to experiment with juicy features to our brick-breaker game. The exercise will provide you with the next several features that should move you towards the implementation of Project 03, including adding music and sound effects.
 
 Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-03c-Music-and-Sound. Edit the LICENSE and replace BL-MSCH-C220-F22 with your full name. Commit your changes.
